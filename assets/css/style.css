@@ -1,14 +1,5 @@
-/**
-* Template Name: Gp
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+/* general*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -123,6 +114,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+  background-color: rgba(0, 0, 0, 0.9);;
 }
 
 #header.header-scrolled,
@@ -140,23 +132,18 @@ h6 {
   text-transform: uppercase;
 }
 
-#header .logo a {
-  color: #fff;
-}
-
-#header .logo a span {
-  color: #ffc451;
-}
-
 #header .logo img {
   max-height: 40px;
 }
+
 
 /*--------------------------------------------------------------
 #  Get Startet Button
 --------------------------------------------------------------*/
 .get-started-btn {
-  color: #fff;
+  color: #ffc451;
+  background-color: transparent;
+  font-weight: 900;
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
   white-space: nowrap;
@@ -167,8 +154,10 @@ h6 {
 }
 
 .get-started-btn:hover {
-  background: #ffbb38;
-  color: #343a40;
+  background: #ffffff;
+  color: #000000;
+  font-weight: 700;
+  border: 2px solid #ffffff;
 }
 
 @media (max-width: 992px) {
@@ -208,7 +197,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color: #fdfdfd;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -225,6 +214,7 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #ffc451;
+  font-size: x-large;
 }
 
 .navbar .dropdown ul {
@@ -297,7 +287,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #3a3333;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -406,14 +396,14 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/1.jpg") top center;
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(46, 33, 33, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -455,7 +445,7 @@ h6 {
 }
 
 #hero .icon-box i {
-  font-size: 32px;
+  font-size: 40px;
   line-height: 1;
   color: #ffc451;
 }
