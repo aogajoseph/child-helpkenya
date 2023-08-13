@@ -1,5 +1,5 @@
 
-/* general*/
+/* general */
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -24,9 +24,7 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
+/* back to top button */
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -60,9 +58,7 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
+/* preloader */
 #preloader {
   position: fixed;
   top: 0;
@@ -98,18 +94,14 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
+/* disable aos animation delay on mobile devices */
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/* header */
 #header {
   transition: all 0.5s;
   z-index: 997;
@@ -137,9 +129,7 @@ h6 {
 }
 
 
-/*--------------------------------------------------------------
-#  Get Startet Button
---------------------------------------------------------------*/
+/* get startet button */
 .get-started-btn {
   color: #ffc451;
   background-color: transparent;
@@ -167,12 +157,8 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
+/* navigation menu */
+/* desktop navigation */
 .navbar {
   padding: 0;
 }
@@ -283,9 +269,7 @@ h6 {
   }
 }
 
-/**
-* Mobile Navigation 
-*/
+/* mobile navigation */
 .mobile-nav-toggle {
   color: #ffffff;
   font-size: 28px;
@@ -331,7 +315,7 @@ h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #2e2828;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -340,7 +324,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #151515;
+  color: #ffffff;
 }
 
 .navbar-mobile a:hover,
@@ -390,9 +374,7 @@ h6 {
   display: block;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+/* hero section */
 #hero {
   width: 100%;
   height: 100vh;
@@ -403,7 +385,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(46, 33, 33, 0.6);
+  background: rgba(46, 33, 33, 0.9);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -445,7 +427,7 @@ h6 {
 }
 
 #hero .icon-box i {
-  font-size: 40px;
+  font-size: 50px;
   line-height: 1;
   color: #ffc451;
 }
@@ -494,9 +476,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+/* sections general */
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -554,9 +534,7 @@ section {
   text-align: right;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+/* about */
 .about .content h3 {
   font-weight: 700;
   font-size: 28px;
@@ -585,9 +563,7 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
+/* clients */
 .clients {
   padding-top: 20px;
 }
@@ -620,9 +596,7 @@ section {
   background-color: #ffc451;
 }
 
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
+/* features */
 .features {
   padding-top: 20px;
 }
@@ -656,9 +630,7 @@ section {
   min-height: 400px;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
+/* services */
 .services .icon-box {
   text-align: center;
   border: 1px solid #ebebeb;
@@ -713,9 +685,7 @@ section {
   transform: translateY(-10px);
 }
 
-/*--------------------------------------------------------------
-# Cta
---------------------------------------------------------------*/
+/* cta */
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
@@ -752,9 +722,7 @@ section {
   color: #151515;
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
+/* portfolio */
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -875,9 +843,7 @@ section {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
+/* portfolio details */
 .portfolio-details {
   padding-top: 40px;
 }
@@ -940,9 +906,7 @@ section {
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
+/* counts */
 .counts .content {
   padding: 30px 0;
 }
@@ -1022,9 +986,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
+/* testimonials */
 .testimonials {
   padding: 80px 0;
   background: url("../img/testimonials-bg.jpg") no-repeat;
@@ -1131,9 +1093,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
+/* team */
 .team {
   background: #fff;
   padding: 60px 0;
@@ -1217,9 +1177,7 @@ section {
   bottom: 15px;
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+/* contact */
 .contact .info {
   width: 100%;
   background: #fff;
@@ -1353,9 +1311,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
+/* breadcrumbs */
 .breadcrumbs {
   padding: 15px 0;
   background: whitesmoke;
@@ -1405,9 +1361,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/* footer */
 #footer {
   background: black;
   padding: 0 0 30px 0;
