@@ -564,28 +564,26 @@ section {
   margin-bottom: 0;
 }
 
-/* clients */
-.clients {
+/* partners */
+.partners {
   padding-top: 20px;
 }
 
-.clients .swiper-slide img {
-  opacity: 0.5;
+.partners .swiper-slide img {
   transition: 0.3s;
-  filter: grayscale(100);
 }
 
-.clients .swiper-slide img:hover {
+.partners .swiper-slide img:hover {
   filter: none;
   opacity: 1;
 }
 
-.clients .swiper-pagination {
+.partners .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.clients .swiper-pagination .swiper-pagination-bullet {
+.partners .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -593,7 +591,7 @@ section {
   background-color: #ddd;
 }
 
-.clients .swiper-pagination .swiper-pagination-bullet-active {
+.partners .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #ffc451;
 }
 

@@ -166,9 +166,9 @@
   }
 
   /**
-   * Clients Slider
+   * partners Slider
    */
-  new Swiper('.clients-slider', {
+  new Swiper('.partners-slider', {
     speed: 400,
     loop: true,
     autoplay: {
