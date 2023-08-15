@@ -9,6 +9,10 @@ body {
   text-align: center;
 }
 
+.pale {
+  background-color: azure;
+}
+
 .donate-btn {
   color: #000000;
   background-color: #ffc451;
@@ -542,6 +546,16 @@ section {
   margin: 0;
   margin: 0;
   font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #151515;
+}
+
+.section-title h4 {
+  margin: 0;
+  margin: 0;
+  font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
