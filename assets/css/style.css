@@ -9,13 +9,17 @@ body {
   text-align: center;
 }
 
+.bold {
+  font-weight: 900;
+}
+
 .pale {
   background-color: azure;
 }
 
 .donate-btn {
-  color: #000000;
-  background-color: #ffc451;
+  color: #ffffff;
+  background-color: #000000;
   font-weight: 900;
   border-radius: 4px;
   padding: 7px 25px 8px 25px;
@@ -27,10 +31,10 @@ body {
 }
 
 .donate-btn:hover {
-  background: #000000;
-  color: #ffffff;
+  background: transparent;
+  color: #000000;
   font-weight: 700;
-  border: 2px solid #ffffff;
+  border: 2px solid #000000;
 }
 
 @media (max-width: 992px) {
@@ -731,7 +735,7 @@ section {
 
 /* cta */
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/2.png") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -756,15 +760,16 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #ffc451;
+  color: #000;
+  background: #ffc451;
 }
 
 .cta .cta-btn:hover {
-  background: #ffc451;
-  border-color: #ffc451;
-  color: #151515;
-}
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+} 
 
 /* portfolio */
 .portfolio .portfolio-item {
