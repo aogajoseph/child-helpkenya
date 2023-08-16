@@ -1549,6 +1549,11 @@ section {
   border: 2px solid #ffc451;
 }
 
+.footer-logo {
+  width: 7rem;
+  padding-bottom: 5px;
+}
+
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
