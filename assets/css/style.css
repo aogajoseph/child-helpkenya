@@ -18,7 +18,7 @@ body {
 }
 
 .donate-btn {
-  color: #ffffff;
+  color: #ffc451;;
   background-color: #000000;
   font-weight: 900;
   border-radius: 4px;
@@ -978,7 +978,7 @@ section {
 .counts .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #ffc451;
+  color: #e2a221;
   float: left;
 }
 
@@ -1003,14 +1003,14 @@ section {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #3b3b3b;
+  color: #292727;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
 .counts .content .count-box a:hover {
-  color: #626262;
+  color: #222020;
 }
 
 .centered-img {
@@ -1019,7 +1019,6 @@ section {
 }
 
 .counts .image {
-  background: url("../img/counts-img.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
