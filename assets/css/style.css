@@ -1446,9 +1446,8 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #292929;
-  color: #fff;
-  line-height: 1;
+  background: rgb(61, 56, 56);
+  line-height: 0;
   padding: 8px 0;
   margin-right: 4px;
   border-radius: 4px;
@@ -1456,6 +1455,31 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+}
+
+#footer .footer-top .social-links .twitter {
+  color: #1DA1F2;
+  filter: brightness(130%);
+}
+
+#footer .footer-top .social-links .facebook {
+  color: #3b5998;
+  filter: brightness(130%);
+}
+
+#footer .footer-top .social-links .instagram {
+  color: #cd486b;
+  filter: brightness(130%);
+}
+
+#footer .footer-top .social-links .youtube {
+  color: #c4302b;
+  filter: brightness(130%);
+}
+
+#footer .footer-top .social-links .linkedin {
+  color: #0A66C2;
+  filter: brightness(130%);
 }
 
 #footer .footer-top .social-links a:hover {
